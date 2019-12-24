@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+    <div id="app"><div>
+{% endblock %}
+{% block javascripts %}
+    {#<script type="text/javascript" src="{{ asset('build/js/app.js') }}"></script>#}
+
+    {{ encore_entry_script_tags('js/app') }}
+{% endblock %}
