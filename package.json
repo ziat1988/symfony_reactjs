@@ -1,24 +1,47 @@
 {
-    "devDependencies": {
-        "@babel/preset-react": "7.0.0",
-        "@symfony/webpack-encore": "^0.28.2",
-        "babel-preset-react": "^6.24.1",
-        "core-js": "^3.0.0",
-        "prop-types": "^15.7.2",
-        "react": "^16.12.0",
-        "react-dom": "^16.12.0",
-        "regenerator-runtime": "^0.13.2",
-        "webpack-notifier": "^1.6.0"
-    },
-    "license": "UNLICENSED",
-    "private": true,
-    "scripts": {
-        "dev-server": "encore dev-server",
-        "dev": "encore dev",
-        "watch": "encore dev --watch",
-        "build": "encore production --progress"
-    },
-    "dependencies": {
-        "babel-polyfill": "^6.26.0"
-    }
+  "devDependencies": {
+    "@babel/preset-react": "7.0.0",
+    "@symfony/webpack-encore": "^0.30.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "core-js": "^3.0.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "regenerator-runtime": "^0.13.2",
+    "sass-loader": "^8.0.0",
+    "webpack-notifier": "^1.6.0"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.5.2",
+    "moment": "^2.27.0",
+    "react-bootstrap-icons": "^1.0.3-alpha5"
+  },
+  "name": "symfony_reactjs",
+  "description": "Setup usage reactjs inside symfony4",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziat1988/symfony_reactjs.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ziat1988/symfony_reactjs/issues"
+  },
+  "homepage": "https://github.com/ziat1988/symfony_reactjs#readme"
 }

@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('booking') }}
+    {% endblock %}
+
+{% block body %}
+<div id="root-booking"></div>
+{% endblock %}
+{% block javascripts %}
+    <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+    <script src="{{ path('fos_js_routing_js', { callback: 'fos.Router.setData' }) }}"></script>
+    {{ encore_entry_script_tags('booking') }}
+{% endblock %}

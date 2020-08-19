@@ -4,8 +4,107 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "25e96ff4379254d82207cf6bd21ac6eb",
+    "content-hash": "14b6ff106d6cb707cbc822949f89a7c8",
     "packages": [
+        {
+            "name": "beberlei/doctrineextensions",
+            "version": "v1.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beberlei/DoctrineExtensions.git",
+                "reference": "5f16b305dda06eda0d2d293c9d2bbd299249a996"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beberlei/DoctrineExtensions/zipball/5f16b305dda06eda0d2d293c9d2bbd299249a996",
+                "reference": "5f16b305dda06eda0d2d293c9d2bbd299249a996",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": "^2.6",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.14",
+                "nesbot/carbon": "*",
+                "phpunit/phpunit": "^7.0 || ^8.0",
+                "symfony/yaml": "^4.2",
+                "zf1/zend-date": "^1.12",
+                "zf1/zend-registry": "^1.12"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DoctrineExtensions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Steve Lacey",
+                    "email": "steve@stevelacey.net"
+                }
+            ],
+            "description": "A set of extensions to Doctrine 2 that add support for additional query functions available in MySQL and Oracle.",
+            "keywords": [
+                "database",
+                "doctrine",
+                "orm"
+            ],
+            "time": "2020-06-30T03:28:02+00:00"
+        },
+        {
+            "name": "behat/transliterator",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Behat/Transliterator.git",
+                "reference": "3c4ec1d77c3d05caa1f0bf8fb3aae4845005c7fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Behat/Transliterator/zipball/3c4ec1d77c3d05caa1f0bf8fb3aae4845005c7fc",
+                "reference": "3c4ec1d77c3d05caa1f0bf8fb3aae4845005c7fc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "chuyskywalker/rolling-curl": "^3.1",
+                "php-yaoi/php-yaoi": "^1.0",
+                "phpunit/phpunit": "^4.8.36|^6.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Behat\\Transliterator\\": "src/Behat/Transliterator"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Artistic-1.0"
+            ],
+            "description": "String transliterator",
+            "keywords": [
+                "i18n",
+                "slug",
+                "transliterator"
+            ],
+            "time": "2020-01-14T16:39:13+00:00"
+        },
         {
             "name": "doctrine/annotations",
             "version": "v1.8.0",
@@ -1203,6 +1302,150 @@
             "time": "2019-12-20T12:49:39+00:00"
         },
         {
+            "name": "friendsofsymfony/jsrouting-bundle",
+            "version": "2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git",
+                "reference": "9deaf916760ce1d64cf46460473260b02751cee5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/9deaf916760ce1d64cf46460473260b02751cee5",
+                "reference": "9deaf916760ce1d64cf46460473260b02751cee5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "symfony/console": "~3.3|^4.0|^5.0",
+                "symfony/framework-bundle": "~3.3|^4.0|^5.0",
+                "symfony/serializer": "~3.3|^4.0|^5.0",
+                "willdurand/jsonp-callback-validator": "~1.0"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~3.3|^4.0|^5.0",
+                "symfony/phpunit-bridge": "^3.3|^4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FOS\\JsRoutingBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "will+git@drnd.me"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/friendsofsymfony/FOSJsRoutingBundle/contributors"
+                }
+            ],
+            "description": "A pretty nice way to expose your Symfony2 routing to client applications.",
+            "homepage": "http://friendsofsymfony.github.com",
+            "keywords": [
+                "Js Routing",
+                "javascript",
+                "routing"
+            ],
+            "time": "2020-05-20T09:38:45+00:00"
+        },
+        {
+            "name": "gedmo/doctrine-extensions",
+            "version": "v2.4.41",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
+                "reference": "e55a6727052f91834a968937c93b6fb193be8fb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/e55a6727052f91834a968937c93b6fb193be8fb6",
+                "reference": "e55a6727052f91834a968937c93b6fb193be8fb6",
+                "shasum": ""
+            },
+            "require": {
+                "behat/transliterator": "~1.2",
+                "doctrine/common": "~2.4",
+                "php": ">=5.3.2"
+            },
+            "conflict": {
+                "doctrine/annotations": "<1.2",
+                "doctrine/mongodb-odm": ">=2.0"
+            },
+            "require-dev": {
+                "doctrine/common": ">=2.5.0",
+                "doctrine/mongodb-odm": ">=1.0.2 <2.0",
+                "doctrine/orm": ">=2.5.0",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5",
+                "symfony/yaml": "^2.6 || ^3.0 || ^4.0 || ^5.0"
+            },
+            "suggest": {
+                "doctrine/mongodb-odm": "to use the extensions with the MongoDB ODM",
+                "doctrine/orm": "to use the extensions with the ORM"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gedmo\\": "lib/Gedmo"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gediminas Morkevicius",
+                    "email": "gediminas.morkevicius@gmail.com"
+                },
+                {
+                    "name": "Gustavo Falco",
+                    "email": "comfortablynumb84@gmail.com"
+                },
+                {
+                    "name": "David Buchmann",
+                    "email": "david@liip.ch"
+                }
+            ],
+            "description": "Doctrine2 behavioral extensions",
+            "homepage": "http://gediminasm.org/",
+            "keywords": [
+                "Blameable",
+                "behaviors",
+                "doctrine2",
+                "extensions",
+                "gedmo",
+                "loggable",
+                "nestedset",
+                "sluggable",
+                "sortable",
+                "timestampable",
+                "translatable",
+                "tree",
+                "uploadable"
+            ],
+            "time": "2020-05-10T22:20:03+00:00"
+        },
+        {
             "name": "jdorn/sql-formatter",
             "version": "v1.2.17",
             "source": {
@@ -1868,6 +2111,72 @@
                 "controllers"
             ],
             "time": "2019-12-12T16:21:49+00:00"
+        },
+        {
+            "name": "stof/doctrine-extensions-bundle",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stof/StofDoctrineExtensionsBundle.git",
+                "reference": "4d340daa1a8304faa62260be2adb0180e2138af3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stof/StofDoctrineExtensionsBundle/zipball/4d340daa1a8304faa62260be2adb0180e2138af3",
+                "reference": "4d340daa1a8304faa62260be2adb0180e2138af3",
+                "shasum": ""
+            },
+            "require": {
+                "gedmo/doctrine-extensions": "^2.3.4",
+                "php": "^7.1.3",
+                "symfony/framework-bundle": "^4.3 || ^5.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^4.4",
+                "symfony/security-bundle": "^4.3 || ^5.0"
+            },
+            "suggest": {
+                "doctrine/doctrine-bundle": "to use the ORM extensions",
+                "doctrine/mongodb-odm-bundle": "to use the MongoDB ODM extensions",
+                "symfony/mime": "To use the Mime component integration for Uploadable"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stof\\DoctrineExtensionsBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                }
+            ],
+            "description": "Integration of the gedmo/doctrine-extensions with Symfony2",
+            "homepage": "https://github.com/stof/StofDoctrineExtensionsBundle",
+            "keywords": [
+                "behaviors",
+                "doctrine2",
+                "extensions",
+                "gedmo",
+                "loggable",
+                "nestedset",
+                "sluggable",
+                "sortable",
+                "timestampable",
+                "translatable",
+                "tree"
+            ],
+            "time": "2020-03-30T09:00:40+00:00"
         },
         {
             "name": "symfony/asset",
@@ -5869,6 +6178,46 @@
             "time": "2019-11-24T13:36:37+00:00"
         },
         {
+            "name": "willdurand/jsonp-callback-validator",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willdurand/JsonpCallbackValidator.git",
+                "reference": "1a7d388bb521959e612ef50c5c7b1691b097e909"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/willdurand/JsonpCallbackValidator/zipball/1a7d388bb521959e612ef50c5c7b1691b097e909",
+                "reference": "1a7d388bb521959e612ef50c5c7b1691b097e909",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JsonpCallbackValidator": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com",
+                    "homepage": "http://www.willdurand.fr"
+                }
+            ],
+            "description": "JSONP callback validator.",
+            "time": "2014-01-20T22:35:06+00:00"
+        },
+        {
             "name": "zendframework/zend-code",
             "version": "3.4.1",
             "source": {
@@ -5923,6 +6272,7 @@
                 "code",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2019-12-10T19:21:15+00:00"
         },
         {
@@ -5977,6 +6327,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2018-04-25T15:33:34+00:00"
         }
     ],
@@ -6029,6 +6380,7 @@
                 "monolog",
                 "productivity"
             ],
+            "abandoned": true,
             "time": "2019-10-24T07:13:31+00:00"
         },
         {
@@ -6604,6 +6956,79 @@
             "description": "Symfony WebProfilerBundle",
             "homepage": "https://symfony.com",
             "time": "2019-11-20T10:44:55+00:00"
+        },
+        {
+            "name": "symfony/web-server-bundle",
+            "version": "v4.4.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/web-server-bundle.git",
+                "reference": "d617765de8a65d4d42f1b2843c7df36645936216"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/web-server-bundle/zipball/d617765de8a65d4d42f1b2843c7df36645936216",
+                "reference": "d617765de8a65d4d42f1b2843c7df36645936216",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.3",
+                "symfony/config": "^3.4|^4.0|^5.0",
+                "symfony/console": "^3.4|^4.0|^5.0",
+                "symfony/dependency-injection": "^3.4|^4.0|^5.0",
+                "symfony/http-kernel": "^3.4|^4.0|^5.0",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/process": "^3.4.2|^4.0.2|^5.0"
+            },
+            "suggest": {
+                "symfony/expression-language": "For using the filter option of the log server.",
+                "symfony/monolog-bridge": "For using the log server."
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\WebServerBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony WebServerBundle",
+            "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-30T18:50:54+00:00"
         }
     ],
     "aliases": [],
@@ -6616,5 +7041,6 @@
         "ext-ctype": "*",
         "ext-iconv": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

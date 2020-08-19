@@ -24,9 +24,9 @@ Encore
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
     //.addEntry('app', './assets/js/app.js')
-    .addEntry('js/app', ['babel-polyfill', './assets/js/app.js'])
-    //.addEntry('page1', './assets/js/page1.js')
-    //.addEntry('page2', './assets/js/page2.js')
+    .addEntry('app', ['./assets/js/app.js'])
+    .addEntry('booking', ['./assets/js/booking/booking.js'])
+
 
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()
@@ -54,12 +54,13 @@ Encore
         config.corejs = 3;
     })
 
-    // .configureBabel(function(babelConfig) {
-    //     babelConfig.presets.push('env');
-    // })
+     .configureBabel(function(babelConfig) {
+        // babelConfig.presets.push('env');
+         babelConfig.plugins.push('@babel/plugin-proposal-class-properties');
+     })
 
     // enables Sass/SCSS support
-    //.enableSassLoader()
+    .enableSassLoader()
 
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()

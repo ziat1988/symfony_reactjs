@@ -16,3 +16,12 @@ doctrine:
                 dir: '%kernel.project_dir%/src/Entity'
                 prefix: 'App\Entity'
                 alias: App
+        dql:
+            string_functions:
+                regexp: DoctrineExtensions\Query\Mysql\Regexp
+                DAYNAME: DoctrineExtensions\Query\Mysql\WeekDay
+                DATE: DoctrineExtensions\Query\Mysql\Date
+                MONTH: DoctrineExtensions\Query\Mysql\Month
+                YEAR: DoctrineExtensions\Query\Mysql\Year
+                DAYOFWEEK: DoctrineExtensions\Query\Mysql\DayOfWeek
+                DAY: DoctrineExtensions\Query\Mysql\Day

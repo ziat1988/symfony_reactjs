@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="098cf46d-0ac6-4231-9a4b-f2b11e84c732" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="098cf46d-0ac6-4231-9a4b-f2b11e84c732" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/booking/booking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/booking/booking.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/booking/components/contentBooking/contentBooking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/booking/components/contentBooking/contentBooking.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/booking/components/dayWeekBooking/dayWeekBooking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/booking/components/dayWeekBooking/dayWeekBooking.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/booking/components/nameDayBooking/nameDayBooking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/booking/components/nameDayBooking/nameDayBooking.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Booking/BookingApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Booking/BookingController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/booking/bookingView.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sym5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sym5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,103 +45,10 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="48" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/build/entrypoints.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>hello</find>
-      <find>babel</find>
-    </findStrings>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/public/build/js/app.js" />
-        <option value="$PROJECT_DIR$/templates/home/index.html.twig" />
-        <option value="$PROJECT_DIR$/assets/js/app.js" />
-      </list>
-    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -215,87 +157,40 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
+      <path value="$PROJECT_DIR$/vendor/beberlei/doctrineextensions" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/jsrouting-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1fpijKHFD4rkcRAQR6oPp0tnWAa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sym5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sym5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sym5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sym5" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sym5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sym5" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sym5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sym5" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sym5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sym5" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sym5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sym5" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sym5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sym5" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Public/Projects/Docker/mgnt_web/symfony" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Entity" />
+      <recent name="$PROJECT_DIR$/src/Repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js/booking/components/dayWeekBooking" />
+      <recent name="$PROJECT_DIR$/assets/js/booking" />
+    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -309,131 +204,84 @@
       <workItem from="1577175771143" duration="1411000" />
       <workItem from="1577177215802" duration="5558000" />
       <workItem from="1577195136347" duration="1934000" />
+      <workItem from="1596921569563" duration="2423000" />
+      <workItem from="1597045248209" duration="3085000" />
+      <workItem from="1597052467690" duration="7285000" />
+      <workItem from="1597090699904" duration="8114000" />
+      <workItem from="1597133487154" duration="137000" />
+      <workItem from="1597133659673" duration="8855000" />
+      <workItem from="1597267329876" duration="8963000" />
+      <workItem from="1597314370022" duration="2280000" />
+      <workItem from="1597317878115" duration="7148000" />
+      <workItem from="1597402839861" duration="3534000" />
+      <workItem from="1597484018543" duration="15587000" />
+      <workItem from="1597565430990" duration="14809000" />
+      <workItem from="1597690182301" duration="4930000" />
+      <workItem from="1597741712071" duration="14013000" />
+      <workItem from="1597869631739" duration="324000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8903000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.31527627" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.219935" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle/src/Twig/EntryFilesTwigExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/runtime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/entrypoints.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/vendors~js/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="823" y="291" width="582" height="496" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597320183466">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="823" y="291" width="582" height="496" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1005@0.27.1920.1005" timestamp="1597320183466" />
+    <state x="693" y="278" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597054536279">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="693" y="278" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1005@0.27.1920.1005" timestamp="1597054536279" />
+    <state x="857" y="290" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597526780747">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="857" y="290" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.1005/1920.0.1920.1080@0.27.1920.1005" timestamp="1597526780747" />
+    <state x="857" y="290" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.1005@0.27.1920.1005" timestamp="1597337437890" />
+    <state x="337" y="132" width="1315" height="800" key="DiffContextDialog" timestamp="1597269038934">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="337" y="132" width="1315" height="800" key="DiffContextDialog/0.27.1920.1005@0.27.1920.1005" timestamp="1597269038934" />
+    <state x="980" y="383" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597317897288">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="980" y="383" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1005@0.27.1920.1005" timestamp="1597317897288" />
+    <state x="654" y="392" width="443" height="640" key="RollbackChangesDialog" timestamp="1597274848883">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="654" y="392" width="443" height="640" key="RollbackChangesDialog/0.27.1920.1005@0.27.1920.1005" timestamp="1597274848883" />
+    <state x="533" y="162" width="1022" height="737" key="SettingsEditor" timestamp="1597783855514">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="533" y="162" key="SettingsEditor/0.27.1920.1005/1920.0.1920.1080@0.27.1920.1005" timestamp="1597783855514" />
+    <state x="533" y="162" width="1022" height="737" key="SettingsEditor/0.27.1920.1005@0.27.1920.1005" timestamp="1597052479744" />
+    <state x="531" y="66" width="1182" height="692" key="find.popup" timestamp="1597696717000">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="531" y="66" width="1182" height="692" key="find.popup/0.27.1920.1005/1920.0.1920.1080@0.27.1920.1005" timestamp="1597696717000" />
+    <state x="531" y="66" width="1182" height="692" key="find.popup/0.27.1920.1005@0.27.1920.1005" timestamp="1597274829769" />
+    <state x="624" y="240" key="run.anything.popup" timestamp="1597701715995">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="624" y="240" key="run.anything.popup/0.27.1920.1005/1920.0.1920.1080@0.27.1920.1005" timestamp="1597701715995" />
   </component>
 </project>
